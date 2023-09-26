@@ -1,0 +1,7 @@
+- deal with data everyday
+- SQL contains three parts
+	- [[DDL]]
+	- [[DML]]
+	- [[DCL]]
+- [[TCL]]
+- [[DQL]]

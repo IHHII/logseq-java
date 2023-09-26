@@ -1,0 +1,7 @@
+- Network socket
+- [网络套接字](https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E6%8F%92%E5%BA%A7)
+- 完成上三层和下三层间的数据通信
+- [What is a Socket?](https://docs.oracle.com/javase/tutorial/networking/sockets/definition.html)
+- 基于 [[TCP/IP]]协议的Socket编程
+	- 给服务端传输信息
+	- 给客户端传输信息

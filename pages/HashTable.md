@@ -1,0 +1,2 @@
+- 和 [[HashMap]]的区别
+	- 带 [[synchronized]]关键字

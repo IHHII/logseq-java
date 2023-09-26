@@ -1,0 +1,10 @@
+- American Standard Code for Information Interchange
+- 共128个字符
+- [ASCII表](https://www.runoob.com/w3cnote/ascii.html)
+- 拓展
+	- 欧洲 ISO/IEC 8859
+	- 中国 GB2312 --> GBK
+	- 统一码(Unicode) UTF-8 UTF-16 UTF-32
+	- 全世界通用 UTF-8
+- [[转码]]
+- [[解码]]

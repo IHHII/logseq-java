@@ -1,0 +1,1 @@
+- 底层原理和 [[HashMap]]一致，LinkedHashMap为双向的

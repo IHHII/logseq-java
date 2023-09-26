@@ -1,0 +1,9 @@
+- 目录文件操作
+	- ls
+		- ls -l
+			- ll
+		- ls -
+- 操作防火墙
+	- [[firewall]]
+- 解压操作
+	- [[tar&gz&zip]]

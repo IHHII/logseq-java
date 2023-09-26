@@ -1,0 +1,3 @@
+- 用法与 [[StringBuilder]]一致
+- 不同之处
+	- StringBuilder没有[[synchronized]]

@@ -1,0 +1,9 @@
+- [[TreeSet]]借助于TreeMap的Key实现
+- 特点
+	- Key去重，Value不去重
+	- Key有序存储
+	- 不能放空键，可以放空值
+- [[API]]与[[HashMap]]一致
+- {{embed ((625fa874-b218-4044-ac16-b9de892cd9d2))}}
+-
+-

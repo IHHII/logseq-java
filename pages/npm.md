@@ -1,0 +1,6 @@
+- Node.js的包管理工具
+- 换源
+	- 1.临时使用
+		- `npm --registry https://registry.npm.taobao.org install express`
+	- 2.持久使用
+		- `npm config set registry https://registry.npm.taobao.org`

@@ -1,0 +1,10 @@
+- ctrl+A 全选
+- ctrl+X/C/V 剪切/复制/粘贴
+- ctrl+F 查找
+- ctrl+Z 回滚
+- ctrl+Y 进一步
+- ctrl+S 保存
+- win+R 运行
+- win+E 文件浏览器
+- win+D 桌面
+- win+L 锁屏

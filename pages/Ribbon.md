@@ -1,0 +1,2 @@
+- [[Spring Cloud]]的负载均衡组件
+- `@LoadBalance`

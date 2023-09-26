@@ -1,0 +1,5 @@
+- cd 目录
+- cd x:
+- dir
+- ipconfig
+- ping

@@ -1,0 +1,2 @@
+- 过滤器：Filter由Servlet容器管理，可以对任何资源的请求进行拦截
+- 拦截器：Interceptor拦截器由Spring容器创建，在拦截器中可以获取Spring IOC容器中的Bean。拦截范围不是后续整个处理流程，而是仅针对Controller拦截。

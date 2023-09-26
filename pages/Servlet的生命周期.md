@@ -1,0 +1,15 @@
+- 实例化
+	- Servlet容器创建Servlet实例
+- 初始化
+	- 当用户第一次向 Servlet 容器发出 HTTP 请求要求访问某个 Servlet 时，Servlet 容器会在整个容器中搜索该 Servlet 对象，发现这个 Servlet 对象没有被实例化，于是创建这个 Servlet 对象，然后调用该对象的==init()==方法完成初始化。
+	- 当用户第二次访问这个 Servlet 时，Servlet 容器仍然在容器中搜索该 Servlet 对象，结果找到了该对象的实例，则不去创建而直接使用该对象。
+	- 找到了对应的 Servlet 对象，随后 Servlet 进入到运行阶段。
+	- 需要注意的是，在 Servlet 的整个生命周期内，它的 init() 方法只被调用一次。
+- 服务
+	- 这是 Servlet 生命周期中最核心的阶段。在该阶段中，Servlet 容器会为当前的请求创建一个 ServletRequest 对象和一个 ServletResponse 对象（它们分别代表 HTTP 请求和 HTTP 响应），并将这两个对象作为参数传递给 Servlet 的==service()==方法。
+	- service() 方法从 ServletRequest 对象中获得用户的详细请求信息并处理该请求，通过 ServletResponse 对象生成响应结果。
+	- 需要强调的是，在 Servlet 的整个生命周期内，用户每次请求访问 Servlet 时，Servlet 容器都会调用一次 Servlet 的 service() 方法，并且创建新的 ServletRequest 和 ServletResponse 对象。
+- 销毁
+	- 当服务器停止时，Servlet 容器需要回收 Servlet 对象所占用的内存，在回收之前，会自动调用该对象的 ==destroy()== 方法做好回收内存前的准备，辟如关闭后台线程。
+	- 和 init() 方法类似，destroy() 方法也只会被调用一次。
+	- 注意：Servlet 对象一旦创建就会驻留在内存中一直等待客户端的访问，直到服务器关闭或项目被移除出容器时，Servlet 对象才会被销毁。

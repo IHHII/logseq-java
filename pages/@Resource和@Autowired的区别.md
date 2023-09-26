@@ -1,0 +1,2 @@
+- @Resource按名称装配
+- @Autowire按属性装配

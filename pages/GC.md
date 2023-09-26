@@ -1,0 +1,3 @@
+- Garbage collection
+- 垃圾回收
+- 回收失去引用的对象

@@ -1,0 +1,3 @@
+- Uniform Resource Identifier
+- [统一资源标志符](https://zh.wikipedia.org/wiki/%E7%BB%9F%E4%B8%80%E8%B5%84%E6%BA%90%E6%A0%87%E5%BF%97%E7%AC%A6)
+-

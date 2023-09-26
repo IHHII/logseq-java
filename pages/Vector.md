@@ -1,0 +1,5 @@
+- 向量，[[List]]集合中一种非常古老的集合
+- Vector与[[ArrayList]]的区别
+	- [[API]]一致
+	- 底层结构一样
+	- Vector的方法加了[[synchronized]]

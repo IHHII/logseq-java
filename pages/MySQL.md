@@ -1,0 +1,6 @@
+- 目录结构
+	- bin
+	- data
+	- include
+	- lib
+	- my.ini

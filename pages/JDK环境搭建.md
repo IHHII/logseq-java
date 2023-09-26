@@ -1,0 +1,35 @@
+- 安装JDK
+	- [下载地址](https://www.oracle.com/java/technologies/downloads/)[[JDK8]]
+	- 检测java是否安装完成
+	  ```
+	  java -version
+	  ```
+- 编写HelloWorld #HelloWorld
+	- ```java
+	  public class HelloWorld{
+	  	public static void main(String[] args) {
+	  		System.out.println("Hello World");
+	  	}
+	  }
+	  ```
+	- 编译运行
+	  ```
+	  javac HelloWorld.java
+	  java HelloWorld
+	  ```
+	- 如果编译遇到问题
+		- javac -encoding utf-8 HelloWorld.java
+- 配置环境变量
+	- [[cd命令]]系统命令,任何目录都可运行
+	- java提升为系统级命令后也可以在任何目录运行
+	- 变量配置
+		- [[JAVA_HOME]]:jiava安装目录
+			- JAVA_HOME
+			  C:\\Program Files\\java\\jre...
+		- [[Path]]:Java的命令执行目录
+			- Path
+			  %JAVA_HOME%\\bin
+		- [[ClassPath]]:配置class字节码文件所在位置
+			- CLASSPATH
+			  .
+-

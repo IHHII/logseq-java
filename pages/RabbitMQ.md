@@ -1,0 +1,5 @@
+- MQ
+	- 消息队列，Message Queen
+	- Queen的最大特性FIFO
+- 特点
+	- 支持多种客户端语言

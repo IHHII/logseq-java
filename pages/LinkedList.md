@@ -1,0 +1,10 @@
+- 底层为[[链表]]结构
+	- 每一个元素由三部分[[Node]]构成
+		- prev
+		- Element
+		- next
+- [[API]]方法与ArrayList一致
+- 与[[ArrayList]]的区别
+	- 底层结构不一样
+	- ArrayList比较适合用于查询，新增删除节点效率较低
+	- LinkedList比较适用于新增，删除，查询效率较低
