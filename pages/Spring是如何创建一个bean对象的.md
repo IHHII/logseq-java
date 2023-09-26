@@ -1,0 +1,5 @@
+- 利用这个类的无参构造方法创建一个对象
+- UserService userService = applicationContext.getBean("")
+- 属性值没有填充，通过@Autowired进行依赖注入
+- 判断一下是否有Autowired注解，并注入对应的属性值
+- UserService-->无参的构造方法-->对象-->依赖注入-->Bean对象

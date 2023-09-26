@@ -1,0 +1,41 @@
+- fail-safe 机制与fail-fast 机制分别有什么作用
+- HashMap 是怎么解决哈希冲突的？
+- 面试官：你能说一下什么是受检异常和非受检异常吗？
+- 为什么阿里巴巴的Java开发手册不建议使用Java自带的线程池
+- fail-safe 机制与fail-fast机制分别有什么作用
+- HashMap是怎么解决哈希冲突的？
+- JDK动态代理为什么只能代理有接口的类？
+- 请说一下对象的创建过程（阿里）
+- new String（＂abc＂）到底创建了几个对象？
+- 请简单说一下你对受检异常和非受检异常的理解
+- HashMap 是如何解决 hash 冲突的？
+- String、StringBuffer、StringBuilder 区别
+- Integer使用不当导致生产的事故
+- 可以讲一下ArrayList的自动扩容机制吗？
+- 什么是深拷贝和浅拷贝？
+- HashMap中的hash方法为什么要右移异或？
+- HashMap 啥时候扩容，为什么扩容？
+- 强引用、软引用、弱引用、虚引用有什么区别？
+- Java有几种文件拷贝方式，哪一种效率最高？
+- 聊聊你知道的设计模式
+- finally块一定会执行吗？
+- 在Java 中实现单例模式有哪些方法
+- Java SPI是什么？有什么用？
+- Integer和int的区别？Java为什么要设计封装类？
+- Integer aInteger a a＝a的运行结果？
+- HashMap 与HashTable 区别
+- Java反射的优缺点？
+- 为什么重写 equals（）就一定要重写 hashCode（）方法？
+- 介绍下策略模式和观察者模式？
+- 谈谈什么是零拷贝？
+- SortedSet和List异同点？
+- 为什么阿里Java手册禁止使用存储过程？
+- 为什么阿里巴巴强制要求使用包装类型定义属性？
+- 刚折腾完Log，又爆Spring RCE核弹级漏洞
+- 钟轻松理解单线程下的HashMap工作原理
+- 两个Integer对象比较大小，为什么于等于
+- 为什么 HashMap会产生死循环？
+- 哪些情况下的单例对象可能会破坏？
+- 责任链模式的实现原理
+- new String（＂hello＂）之后，到底创建了几个对象？
+- 什么是Java SPI，它有什么作用？

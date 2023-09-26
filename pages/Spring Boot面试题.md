@@ -1,0 +1,7 @@
+- Spring Boot的约定优于配置，你的理解是什么？
+- Spring Boot中自动装配机制的原理
+- Spring Boot的约定优于配置，你的理解是什么？
+- Spring Boot中自动装配机制的原理
+- 如何理解 Spring Boot中的Starter？
+- SpringBoot如何解决跨域问题？
+- Spring Boot自动装配原理

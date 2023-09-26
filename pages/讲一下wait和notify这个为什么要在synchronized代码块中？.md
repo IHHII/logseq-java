@@ -1,0 +1,2 @@
+- wait，notify和notifyall是用于线程间通信的方法
+-
