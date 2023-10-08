@@ -6,6 +6,6 @@
   判断方法上是否有@PostConstruct注解
 - 初始化通过实现InitializingBean接口的afterPropertiesSet方法
   通过InstanceOf来判断是否实现了这个接口
-- 初始化AOP后置处理器
--
+- 初始化后即AOP后置处理器
+- 有多个构造方法时，Spring会使用无参构造方法，当有两个有参构造方法且没有无参构造方法时会报错，可以在想要的构造方法上面添加@Autowired注解
 -
