@@ -1,5 +1,5 @@
 - {{video https://www.bilibili.com/video/BV1rb4y147F2?p=2}}
-- UserService类->推断构造方法->普通对象->依赖注入->初始化前->初始化->初始化后->放入单例池Map->Bean
+- UserService类->推断构造方法->普通对象->依赖注入->初始化前->初始化->初始化后AOP->代理对象->放入单例池Map->Bean
 - 通过@Autowired进行依赖注入
   判断属性上是否有@Autowired注解
 - 初始化前要通过@PostConstruct注解来执行一个方法
