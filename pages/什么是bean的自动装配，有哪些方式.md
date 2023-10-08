@@ -1,0 +1,5 @@
+- no-缺省状况下，通过ref属性手动设定
+- byName
+- byType
+- constructor，类似byType，不过是应用于构造器的参数，一个Bean与构造器参数的类型相同，则进行自动装配，否则导致异常
+- autodetect，有默认的构造器，通过constructor进行自动装配，否则使用byType
