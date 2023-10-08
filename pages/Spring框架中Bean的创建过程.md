@@ -1,6 +1,6 @@
 - 实例化，初始化一个Bean
 - 属性赋值（依赖注入）
-	- 通过BeanDefination找到对象依赖的其他对象，并将这些对象赋予当前对象
+	- 通过[[BeanDefination]]找到对象依赖的其他对象，并将这些对象赋予当前对象
 - 处理Aware接口，检测是否实现了xxAware接口，实现了就会调用对应的方法
 	- BeanNameAware，BeanClassLoaderAware，BeanFactoryAware，ApplicationContextAware
 - 初始化前（BeanPostProcessor前置处理）
