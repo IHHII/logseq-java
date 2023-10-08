@@ -1,0 +1,3 @@
+- 不添加这个注解的时候会事务失效
+- jdbc连接和事务管理器是两个连接对象
+- jdbcTemplate从ThreadLocal可以获取事务管理连接，事务管理会创建连接并保存到ThreadLocal<Map<DataSource，conn>>中
