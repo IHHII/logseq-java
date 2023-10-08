@@ -19,3 +19,4 @@
 	- conn.autocommit = false
 	- 执行对应的方法sql
 	- 异常就rollback，否则就提交
+	- 事务的传播行为NEVER，有事务就抛异常
