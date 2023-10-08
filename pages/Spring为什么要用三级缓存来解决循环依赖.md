@@ -1,1 +1,4 @@
 - 一个Bean的前两个字母都是大写的时候，获取Bean时前两个都是大写，其他的第一个字母是小写
+- 一级缓存，单例池，singletonObjects
+- 二级缓存，earlySingletonObjects
+- 三级缓存，singletonFactories
