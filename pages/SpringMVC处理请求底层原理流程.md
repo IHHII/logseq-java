@@ -1,1 +1,7 @@
-- 请求发送到Tomcat内部，tomcat内部部署的应用程序会处理请求，
+- 请求发送到Tomcat内部，tomcat内部部署的应用程序会处理请求
+- Tomcat只关注Servlet类，通过配置会扫描Servelet，会创建DispatchServlet来进行处理
+- 根据请求路径来找到Controller内的方法
+-
+- Tomcat启动
+- 解析webapp下META-INFO的web.xml文件
+- DispatchServlet实例化
