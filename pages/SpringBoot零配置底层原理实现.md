@@ -1,0 +1,5 @@
+- spring-boot-autoconfigure.jar模块
+- 在pom去除Tomcat的依赖，加入Jett或UnderTow
+- WebServerFactory的父类上有定义好端口8080
+- 配置了8081后，启动Tomcat之前，BeanPostProcessor会将FactoryBean内部的端口修改
+- 有个@ConfigurationPropertires注解会去查找server前缀的注解，读取通过customsize修改自定义的设置，这个步骤是在Bean的初始化之前进行的操作

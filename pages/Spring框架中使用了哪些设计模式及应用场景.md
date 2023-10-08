@@ -1,0 +1,11 @@
+- 简单工厂模式
+	- Spring中的BeanFactory就是一个简单工厂，传入一个唯一标识获取Bean对象
+- 工厂方法
+	- FactoryBean接口的bean是一类叫做factory的bean，使用getBean调用获取该bean时调用该bean的getObject方法，返回的不是factory这个bean，而是bean.getObject的返回值
+- 单例模式
+- 适配器模式
+	- 定义了一个适配接口，SpringMVC中HandleAdapter，
+- 装饰器模式
+- 动态代理
+- 观察者模式
+- 策略模式

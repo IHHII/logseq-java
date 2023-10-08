@@ -1,0 +1,19 @@
+- 实例化，初始化一个Bean
+- 属性赋值（依赖注入）
+	- 通过BeanDefination找到对象依赖的其他对象，并将这些对象赋予当前对象
+- 处理Aware接口，检测是否实现了xxAware接口，实现了就会调用对应的方法
+	- BeanNameAware，BeanClassLoaderAware，BeanFactoryAware，ApplicationContextAware
+- 初始化前（BeanPostProcessor前置处理）
+	- 实现postProcessBeforeInitialization和postProcessAfterInitialization方法，分别对应初始化前后
+	  id:: 65226e1b-2b23-4de9-bbf5-4453af8b8131
+- 初始化 InitlizaiontBean
+	- 实现这个接口就会执行afterPropertiesSet方法，定制初始化逻辑
+- init-method \<bean init-method=xxx>
+	- 如果配置了该属性，就会调用该配置的方法执行初始化逻辑
+	- 该配置对应的是PostConstruct注解
+- BeanPostProcessor后置处理
+	- 执行postProcessAfterInitialization方法
+- 初始化后（AOP），存入单例池，使用
+- DisposableBean，实现了这个接口，销毁前会调用其destroy()方法
+- 销毁destroy-method <bean destroy-method=xxx>
+	- 对应@PreDestroy注解

@@ -1,0 +1,5 @@
+- SpirngBoot.jar calss文件已经编译好了
+- 已经编译好了，不会编译报错
+- 运行报错
+- 通过ASM来读取字节码，操作字节码来读取注解，从而不用再JVM加载全部的类再扫描
+- 利用ASM读取到字符串信息后利用applicationContext.getClassLoader().loadClass("UnderTow.class")

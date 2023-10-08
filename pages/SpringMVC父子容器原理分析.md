@@ -1,0 +1,2 @@
+- 配置了两份spring.xml配置文件并在web.xml添加后，会产生两个DispatchServlet，从而有两个Spring容器
+- 如果两个的Service Bean都是一样的，就可以创建一个新的Spring容器，将Service Bean放入，这个容器就是父容器，另外两个就是子容器

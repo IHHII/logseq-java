@@ -1,0 +1,3 @@
+- @SpringBootApplication这个复合注解里面有@Configuration和ComponentScan注解
+- 有一个工具类会查找解析注解和注解上面的注解
+- 通过applicationContext.get(DispatchServlet.class)可以根据名称或类型获得到自定义的Bean

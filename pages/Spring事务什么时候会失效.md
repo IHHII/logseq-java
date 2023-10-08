@@ -1,0 +1,6 @@
+- Spring事务失效
+	- 发生自己调用自己的方法，这个时候使用的不是代理对象而是自己的方法，需要使用@Autowire调用
+	- 方法不是public，@Transactional只能用于public的方法上，使用非public要开启AspectJ代理模式
+	- 数据库不支持事务
+	- 没有被Spring管理
+	- 异常被吃掉，异常没有被抛出或被处理掉

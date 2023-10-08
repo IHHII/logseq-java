@@ -1,0 +1,4 @@
+- 切换Web容器，修改pom文件，去掉tomcat添加其他容器替换为Jetty和Undertow
+- 创建Spring容器的时候，会查看容器中存在什么Bean，就加载什么Web容器，进而启动Web容器
+- 先执行getWebServerFactory，用一个String数组获取所有这个Bean的名字，判断0个或多个名字就报错
+- 有@ConditionOnClass注解来限制ServerBean的加载

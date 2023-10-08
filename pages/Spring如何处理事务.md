@@ -1,0 +1,8 @@
+- 编程式事务TransactionTemplate
+- 声明式事务@Transactional
+- Spring事务隔离级别 #card
+	- ISOLATION_DEFAULT:数据库默认隔离级别
+	- ISOLATION_READ_UNCOMMITTED:读未提交
+	- ISOLATION_READ_COMMITTED:读已提交
+	- ISOLATION_REPEATABLE_READ:可重复读
+	- ISOLATION_SERIALIZABLE：序列化执行
