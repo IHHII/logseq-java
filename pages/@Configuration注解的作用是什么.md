@@ -2,3 +2,4 @@
 - jdbc连接和事务管理器是两个连接对象
 - jdbcTemplate从ThreadLocal可以获取事务管理连接，事务管理会创建连接并保存到ThreadLocal<Map<DataSource，conn>>中，jdbc获得不到该事务管理器创建的连接会去创建一个新的连接，而这个连接会自动提交
 - 添加了Configuration注解之后会使得jdbc和事务管理的连接的数据源是同一个
+- 有多个数据源的时候添加了这个注解也可能会失效
