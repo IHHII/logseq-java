@@ -19,4 +19,4 @@
 	- conn.autocommit = false
 	- 执行对应的方法sql
 	- 异常就rollback，否则就提交
-	- 事务的传播行为NEVER，有事务就抛异常
+	- 事务的传播行为NEVER，有事务就抛异常，但是在内部调用的时候会失效，因为代理对象内部执行的方法然后内部的是普通对象在执行，不会检查@Transactional注解
