@@ -2,3 +2,18 @@
 - 一级缓存，单例池，singletonObjects
 - 二级缓存，earlySingletonObjects
 - 三级缓存，singletonFactories
+-
+- Aservice创建
+	- 创建AService
+	- 填充bService属性，查找bService对象，创建bService对象
+	- 填充其他属性
+	- 其他操作
+	- 初始化后
+	- 放入单例池
+- Bservice创建
+	- 创建BService
+	- 填充aService属性，查找aService对象，创建aService对象
+	- 填充其他属性
+	- 其他操作
+	- 初始化后
+	- 放入单例池
