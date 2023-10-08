@@ -1,0 +1,3 @@
+- 用来表示Bean定义
+- Spring根据BeanDefination来创建Bean对象，有很多属性来描述Bean
+- beanClass
