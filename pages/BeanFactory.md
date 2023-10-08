@@ -1,0 +1,16 @@
+- 一种Spring容器，可以用来创建Bean
+- BeanFactory用 [[BeanDefination]]来生成Bean
+- 核心子接口和实现类
+	- ListableBeanFactory
+	- ConfigurableBeanFactory
+	- AutowireCapableBeanFactory
+	- AbstractBeanFactory
+	- DefaultListableBeanFactory
+		- 最重要
+		- 单例Bean
+		- Bean别名
+		- 父子BeanFactory
+		- Bean类型转化
+		- Bean后置处理
+		- 支持FactoryBean
+		- 支持自动装配

@@ -1,3 +1,15 @@
 - 用来表示Bean定义
 - Spring根据BeanDefination来创建Bean对象，有很多属性来描述Bean
 - beanClass
+	- 表示一个Bean的类型，根据此属性实例化得到对象
+- scope
+	- 表示一个Bean的作用域
+- isLazy
+	- 表示是否需要懒加载，原型不起作用
+- dependsOn
+	- 表示一个Bean再创建前需要依赖的其他Bean，一个Bean创建前这些需要创建好
+- primary
+	- 表示一个Bean是主Bean，一个类型可以存在多个Bean，依赖注入是有主Bean会选择主Bean注入
+- initMethodName
+	- 一个Bean的初始化方法，初始化阶段会调用这个方法，可以自定义逻辑对这个加工
+- @Component、@Bean、\<bean />都会解析为BeanDefinatino

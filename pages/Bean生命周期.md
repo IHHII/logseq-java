@@ -1,0 +1,10 @@
+- 一个Bean创建和销毁过程中所经历的步骤，可以利用Bean的生命周期对Bean进行自定义加工
+- [[BeanDefination]]
+- 构造方法推断
+- 实例化，通过构造方法反射获取实例
+- 属性填充，自动注入，依赖注入
+- 初始化
+	- 初始化前BeanPostProcess
+	- 初始化initliazeBean
+	- 初始化后AOP
+- 销毁
