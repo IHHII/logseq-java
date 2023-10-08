@@ -4,7 +4,7 @@
 - 三级缓存，singletonFactories
 -
 - Aservice创建
-	- 创建AService
+	- 创建AService，放入Map<beanName,Aservice普通对象>
 	- 填充bService属性，查找bService对象，创建bService对象
 	- 填充其他属性
 	- 其他操作
