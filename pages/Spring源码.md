@@ -13,3 +13,9 @@
 - 自动注入byType然后byName进行匹配，当按照类型匹配有多个的时候会按照名字再进行匹配，如果只有一个Bean那么找到的唯一一个然后就不会再按照名字来进行匹配
 - 通过AOP实现代理对象，代理对象没有依赖注入的过程，有代理接口通过JDK代理，没有通过CGLIB代理生成子类，当要用到原始对象的属性的时候，会在内部添加一个target对应原始的对象
 - UserServiceProxy对象->UserService代理对象->UserService代理对象.target = 普通对象
+- 事务，利用AOP代理实现
+	- 查看是否有@Transaciotional注解
+	- 有就用事务管理器创建一个新的连接
+	- conn.autocommit = false
+	- 执行对应的方法sql
+	- 异常就rollback，否则就提交
