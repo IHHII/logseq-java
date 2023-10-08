@@ -23,4 +23,5 @@
 - 当再增加一个c的时候，需要二级缓存来存放代理的a对象，否则会再创建一个a的代理对象
 -
 - doCreateBean()
-	- AOP的时候还是需要Bean的普通对象，创建a的时候会放入Map<aService, lambda(service普通对象)>
+	- AOP的时候还是需要Bean的普通对象，创建a的时候会放入Map<aService, lambda(service普通对象+beanDefination)>
+	- 获取AOP对象的时候会执行内部存放的lambda表达式，然后如果不要AOP就返回普通对象
