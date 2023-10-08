@@ -1,2 +1,3 @@
 - Async也是一个AOP
 - 三级缓存里面的lambda表达式只会去执行AspectJ的注解的AOP
+- 执行Async的时候出现循环依赖是不会提前判断是否执行@Async，从而不会提前AOP，但是后面执行AOP的时候又会生成另一个代理对象
