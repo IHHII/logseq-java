@@ -1,0 +1,2 @@
+- Async也是一个AOP
+- 三级缓存里面的lambda表达式只会去执行AspectJ的注解的AOP
