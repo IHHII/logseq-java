@@ -1,0 +1,1 @@
+- 需要给所有key加一个hash tag {XXX}，才能保证所有key落在同一slot
