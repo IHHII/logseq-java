@@ -1,0 +1,4 @@
+- randomkey
+	- 随机返回一个未过期的key
+	- 如果存在大量过期未删除的key，会不断查找并清除过期key
+	- 如果slave节点上性能更差，master要先清理才会同步到slave，slave不会删除过期的key，会一直在过期的key里面查找

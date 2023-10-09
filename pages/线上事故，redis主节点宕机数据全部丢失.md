@@ -1,0 +1,5 @@
+- master-slave-哨兵
+- master未持久化
+- redis进程使用supervisor，进程宕机就重启
+- 故障情况下哨兵还未切换，master重启，启动后为空实例，进而同步到slave
+- 要等待哨兵切换后再重启主节点
