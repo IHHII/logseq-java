@@ -29,3 +29,25 @@
 	  :END:
 - 索引如何进行分析和调优
 - explain关键字中的重要指标有哪些
+	- table
+	- id
+	- select_type
+	- partitions
+	- type
+		- all全表扫描
+		- index，索引
+		- range，范围查询
+		- ref，通过普通二级索引列与常量进行等值匹配
+		- const
+		- system
+		- index_subquery
+		- unique_subquery
+		- index_merge
+		- ref_or_null
+	- possible_keys,可能使用的索引
+	- keys，使用的索引
+	- key_len，索引使用的字节数
+	- ref
+	- rows，查询时必须检查的行数
+	- filtered
+	- extra

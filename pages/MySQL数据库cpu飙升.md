@@ -1,0 +1,15 @@
+- 先定位
+- 使用top命令查看mysqld的利用率
+- 使用show full processlist，查看会话
+- 观察是哪些sql消耗了资源，其中终点观察state指标
+- 定位到具体sql
+-
+- 使用pidstate
+- 定位到线程
+- 在preformance_schema.thread中记录了thread_os_id找到线程执行的sql
+- 根据操作系统id可以到processlist表找到对应的会话
+-
+- 使用show profile观察sql各个阶段耗时
+- 服务器上是否运行了其他程序
+- 检查一下是否有慢查询
+- pref top
