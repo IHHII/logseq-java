@@ -1,0 +1,1 @@
+- for update只适用于InnoDB，仅在事务快中生效，会使select语句产生一个排他锁

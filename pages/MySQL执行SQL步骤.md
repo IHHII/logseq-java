@@ -1,0 +1,5 @@
+- DOING 详细理解记忆
+  :LOGBOOK:
+  CLOCK: [2023-10-10 Tue 16:49:50]
+  CLOCK: [2023-10-10 Tue 16:49:59]
+  :END:

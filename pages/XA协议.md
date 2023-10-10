@@ -1,0 +1,7 @@
+- 两阶段提交协议
+- [https://dev.mysql.com/doc/refman/8.0/en/xa.html](https://dev.mysql.com/doc/refman/8.0/en/xa.html)
+- 什么是mysql的xa事务
+	- 本地普通事务操作协调数据写入与log写入两阶段提交
+	- 外部分布式事务
+- 2pc，3pc
+	- 额外增加了参与的角色保证分布式事务完成更完善
