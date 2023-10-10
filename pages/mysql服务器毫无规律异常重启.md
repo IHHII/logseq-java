@@ -1,0 +1,9 @@
+- 通过mysql和系统日志来定位错误
+- 关闭swap分区后OOM的问题
+	- 应用进程占用过高操作系统kill掉进程，守护进程又重启了进程，过一段事件后又OOM
+	- 运行时内存占用率
+	- mysql buffer参数
+	- mysql网络连接相关参数
+- 异常关机或kill -9 mysql后导致表文件损坏
+	- 直接使用备份
+	- 配置innodb_force_recovery跳过启动恢复过程
