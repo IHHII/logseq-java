@@ -1,0 +1,8 @@
+- preparedStatement
+- 缓存相同sql，只是占位符不同
+- 好处
+	- sql会被缓存下来
+	- 作用域是每个session，其他session无效
+	- 提高安全性防止sql注入
+	- 可能被重复调用，效率较高
+	- 支付服务器端的预编译
