@@ -1,0 +1,9 @@
+- 继承Thread类
+	- 不支持多继承
+	- 不能通过线程池操作
+- 实现Runnable接口
+	- 不方便传参
+	- 无法获取返回值
+- 实现Callable接口
+	- 可通过Future获取返回值
+- 通过Executors创建线程池对象
