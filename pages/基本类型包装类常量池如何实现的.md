@@ -1,0 +1,2 @@
+- 并发失败，concurrent mode failure
+- 进入stop the world，用serial old垃圾收集器回收
