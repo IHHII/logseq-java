@@ -1,0 +1,15 @@
+- 复制算法
+	- 需要保留一半空间
+- 标记清除
+	- 标记后清理掉垃圾对象
+	- 存在内存碎片
+- 标记整理
+	- 标记后将要存活的对象移动到内存的一端
+- serial
+- serial Old
+- parNew
+- Parallel
+- Parallel Old
+- G1
+- CMS
+- ZGC
