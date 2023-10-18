@@ -1,6 +1,9 @@
 - 需要通过ThreadPoolExecutor方式创建
 - 规避资源耗尽的风险
 - FixedThreadPool和SingleThreadPool
+	- FixedThreadPool和SingleThreadPool使用LinkedBolckingQueue
 	- 允许请求队列长度未Integer.MAX_VALUE，导致堆积大量请求，OOM
 - CachedThreadPool和ScheduledThreadPool
+	- CachedThreadPool和ScheduledThreadPool最大线程数为Integer.MAX_VALUE
 	- 允许创建的线程数量位Integer.MAX_VALUE，创建大量的线程，OOM
+- 通过ArrayBlockingQueue(10)可以设置队列大小
