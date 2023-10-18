@@ -1,0 +1,2 @@
+- inheritableThreadLocals可继承的ThreadLocal
+- 创建子线程时将父线程的数据拷贝到子线程的map里面

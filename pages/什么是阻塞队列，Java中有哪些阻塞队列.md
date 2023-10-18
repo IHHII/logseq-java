@@ -1,0 +1,16 @@
+- BlockingQueue是一个线程安全的队列
+- 生产者和消费者模型，平衡两端
+- 隔离作用
+-
+- take没有数据就阻塞，有数据就取，put没有满就放入数据，满就阻塞
+-
+- ArrayBlockingQueue
+- LinkedBlockingQueue
+- SynchronousQueue
+- DelayQueue
+- LinkedTransferQueue
+- PriorityBlockingQueue
+-
+- ConcurrentLinkedQueue
+-
+- Deque

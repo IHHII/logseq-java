@@ -1,0 +1,2 @@
+- ThreadLocalMap
+	- key为ThreadLocal本身，value为对应的值，key为ThreadLocal的一个弱引用
