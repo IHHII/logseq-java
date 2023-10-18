@@ -59,5 +59,12 @@
 	- 可以知道是否成功获取锁
 	- 实现读写锁提高效率
 - ReentrantLock和Synchronized
-	-
+	- 都解决共享变量安全访问的问题
+	- 可重入锁
+	- 可见性，原子性
+	- 手动调用lock和unlock
+	- 响应中断
+	- API，JVM
+	- 公平，非公平
+	- ReentrantLock通过Condition绑定多个条件
 -
