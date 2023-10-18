@@ -1,0 +1,1 @@
+- 没有外部强引用时，发生GC会被回收，ThreadLocalMap中保存的key值变为null，Thread一致不终结，value对象就会一直存在内存中，导致内存泄漏，直到Thread被销毁才会回收

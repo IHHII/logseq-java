@@ -1,3 +1,7 @@
 - 代替参数的显示传递
+	- 不需要在Controller,Service,Dao层之间传递，直接从ThreadLoacal取数据
 - 全局存储用户信息
+	- 用户信息存储Session，Token
+	- 拦截器获取用户信息后存储到ThreadLoacal中，再从中获取
 - 解决线程安全问题
+	- Dao,Connetinon只有一个，有线程使用Connection时，可以从ThreadLoacal中获取Connection，没有就创建并存入
