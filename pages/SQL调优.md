@@ -8,6 +8,7 @@
 - 使用过哪些调优工具
 	- 官方
 		- EXPLAIN
+		  id:: 65252de4-1039-4af2-bcc6-c0f5d67074eb
 		- mysqldumpslow
 		- show profiles
 		- ooptimizer_trace
@@ -29,6 +30,7 @@
 	  :END:
 - 索引如何进行分析和调优
 - explain关键字中的重要指标有哪些
+  id:: 65253f94-6e42-488a-9f9f-510ee1d340d7
 	- table
 	- id
 	- select_type
