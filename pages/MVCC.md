@@ -2,3 +2,5 @@
 - 为了解决脏读，不可重复读的情况
 - 基于UndoLog版本链接和ReadView来实现的，每个事务都有自己的版本号，
 - MVCC无法解决幻读，需要配合锁来实现
+- 当前读
+	- select for update
