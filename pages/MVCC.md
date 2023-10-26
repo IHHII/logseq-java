@@ -4,3 +4,7 @@
 - MVCC无法解决幻读，需要配合锁来实现
 - 当前读
 	- select for update
+	- select lock in share mode
+	- insert update delete
+- 快照读
+	- 维护了同一个行的多个版本，查询时会返回对应的事务的修改版本
