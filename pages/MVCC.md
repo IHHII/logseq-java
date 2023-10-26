@@ -19,4 +19,6 @@
 		- 最小事务id
 		- readview创建者事务id
 - RC和RR下
-	- RC，每一次都会
+	- RC，每一次快照读都会生产readview
+	- RR，只有第一次快照读生成readview后面复用
+- MVCC解决了读写阻塞，再RR下快照读方面避免了出现幻读的问题
