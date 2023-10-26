@@ -1,0 +1,7 @@
+- 实现了IRule接口的实现类
+- Random随机
+- Round轮询
+- Retry，轮询+重试
+- Weight，权重
+- BestAvailable，去除失效的，找连接数最小的
+- ZoneDefault，区域最近
